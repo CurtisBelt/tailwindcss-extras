@@ -1,0 +1,49 @@
+{
+    "name": "@curtisbelt/tailwindcss-extras",
+    "version": "0.0.0",
+    "description": "Tailwind CSS plugin providing a collection of extra utilities",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/curtisbelt/tailwindcss-extras.git"
+    },
+    "author": {
+        "name": "Curtis Belt",
+        "email": "curtis@curtisbelt.dev"
+    },
+    "license": "MIT",
+    "bugs": "https://github.com/curtisbelt/tailwindcss-extras/issues",
+    "homepage": "https://github.com/curtisbelt/tailwindcss-extras",
+    "keywords": [
+        "tailwindcss"
+    ],
+    "scripts": {
+        "format": "eslint --ext .js --ignore-path .gitignore --fix .",
+        "lint": "eslint --ext .js --ignore-path .gitignore .",
+        "release": "standard-version",
+        "test": "NODE_ENV=test jest"
+    },
+    "files": [
+        "index.js"
+    ],
+    "dependencies": {
+        "lodash": "^4.17",
+        "tailwindcss": "1.2.*"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^8.3.5",
+        "@commitlint/config-conventional": "^8.3.4",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^6.8.0",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-plugin-prettier": "^3.1.2",
+        "husky": "^4.2.3",
+        "jest": "^24.8",
+        "jest-matcher-css": "^1.1",
+        "postcss": "^7.0",
+        "prettier": "^1.19.1",
+        "standard-version": "^7.1.0"
+    },
+    "engines": {
+        "node": ">= 12"
+    }
+}
