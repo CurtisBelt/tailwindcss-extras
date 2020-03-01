@@ -1,7 +1,7 @@
 # Tailwind CSS Extras
 
 [![npm](https://img.shields.io/npm/v/@curtisbelt/tailwindcss-extras.svg)](https://www.npmjs.com/package/@curtisbelt/tailwindcss-extras)
-[![tests](https://travis-ci.org/curtisbelt/tailwindcss-extras.svg?branch=master)](https://travis-ci.org/curtisbelt/tailwindcss-extras)
+[![tests](https://travis-ci.com/curtisbelt/tailwindcss-extras.svg?branch=master)](https://travis-ci.org/curtisbelt/tailwindcss-extras)
 
 ## Installation
 
