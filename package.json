@@ -1,6 +1,6 @@
 {
     "name": "@curtisbelt/tailwindcss-extras",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Tailwind CSS plugin providing a collection of extra utilities",
     "repository": {
         "type": "git",
